@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mobaikar.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.mobaikar.ui.news.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.mobaikar.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_donate"
+        android:name="com.example.mobaikar.ui.donate.DonateFragment"
+        android:label="@string/menu_donate"
+        tools:layout="@layout/fragment_donate" />
+    <fragment
+        android:id="@+id/nav_eibn"
+        android:name="com.example.mobaikar.ui.eibn.EibnFragment"
+        android:label="@string/menu_eibn"
+        tools:layout="@layout/fragment_eibn" />
+    <fragment
+        android:id="@+id/nav_demand"
+        android:name="com.example.mobaikar.ui.demand.DemandFragment"
+        android:label="@string/menu_demand"
+        tools:layout="@layout/fragment_demand" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.mobaikar.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_bhavan"
+        android:name="com.example.mobaikar.ui.bhavan.BhavanFragment"
+        android:label="@string/menu_bhavan"
+        tools:layout="@layout/fragment_bhavan" />
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.example.mobaikar.ui.message.MessageFragment"
+        android:label="@string/menu_message"
+        tools:layout="@layout/fragment_message" />
+    <!--
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.mobaikar.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.mobaikar.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    -->
+    <fragment
+        android:id="@+id/bottom_nav_home"
+        android:name="com.example.mobaikar.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/bottom_nav_news"
+        android:name="com.example.mobaikar.ui.news.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/bottom_nav_donate"
+        android:name="com.example.mobaikar.ui.donate.DonateFragment"
+        android:label="@string/menu_donate"
+        tools:layout="@layout/fragment_donate" />
+    <fragment
+        android:id="@+id/bottom_nav_eibn"
+        android:name="com.example.mobaikar.ui.eibn.EibnFragment"
+        android:label="Business Network"
+        tools:layout="@layout/fragment_eibn" />
+    <fragment
+        android:id="@+id/bottom_nav_message"
+        android:name="com.example.mobaikar.ui.message.MessageFragment"
+        android:label="@string/menu_message"
+        tools:layout="@layout/fragment_message" />
+
+</navigation>
